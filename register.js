@@ -1,8 +1,8 @@
+import { auth } from "./firebase.js";
+import { createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-auth.js";
+
 console.log("register.js loaded");
 alert("register.js loaded");
-
-import { auth } from "./firebase.js";
-import { createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 
 const registerBtn = document.getElementById("registerBtn");
 
